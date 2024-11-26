@@ -57,7 +57,7 @@ public class CadastrarArtistaService {
                 System.out.println("Opção invalida :(");
         }
 
-
+        System.out.println("Cadastro realizado com Sucesso!!");
         System.out.println("------------------------------");
         Artista artista;
         return artista = new Artista(nomeArtista, generoMusical);

@@ -9,7 +9,7 @@ import java.util.Scanner;
 import java.util.stream.IntStream;
 
 public class AssociarArtistasADiscosService {
-    private Map<Artista, Disco> discoArtistas = new HashMap<>();
+    private final Map<Artista, Disco> discoArtistas = new HashMap<>();
 
     public Map<Artista, Disco> getDiscoArtistas() {
         return discoArtistas;

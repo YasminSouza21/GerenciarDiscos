@@ -48,7 +48,7 @@ public class CadastrarDiscoService {
                 opcao = sc.nextLine();
             }
 
-
+            System.out.println("Cadastro realizado com Sucesso!!");
             System.out.println("------------------------------");
             return disco;
         }
